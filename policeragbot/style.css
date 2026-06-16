@@ -1,0 +1,90 @@
+/* MAIN BACKGROUND */
+.stApp {
+    background: linear-gradient(to right, #f8fafc, #e2e8f0);
+    color: #0f172a;
+}
+
+/* TITLE */
+h1 {
+    color: #2563eb;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+/* SUBHEADINGS */
+h2, h3 {
+    color: #0f766e;
+}
+
+/* SIDEBAR */
+section[data-testid="stSidebar"] {
+    background-color: #f1f5f9;
+}
+
+/* SIDEBAR TEXT */
+section[data-testid="stSidebar"] * {
+    color: #0f172a;
+}
+
+/* CHAT INPUT */
+.stChatInput input {
+    background-color: white;
+    color: #0f172a;
+    border-radius: 12px;
+    border: 2px solid #2563eb;
+    padding: 10px;
+}
+
+/* BUTTONS */
+.stButton button {
+    background-color: #2563eb;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    height: 45px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+.stButton button:hover {
+    background-color: #1d4ed8;
+}
+
+/* CHAT BOX */
+.chat-box {
+    background-color: #dbeafe;
+    padding: 20px;
+    border-radius: 15px;
+    color: #0f172a;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-top: 10px;
+    border-left: 6px solid #2563eb;
+}
+
+/* TEXT */
+p, label {
+    color: #0f172a;
+    font-size: 16px;
+}
+
+/* CHAT MESSAGES (Streamlit native) */
+.stChatMessage {
+    background-color: #f8fafc;
+    border-radius: 12px;
+    padding: 10px;
+    border: 1px solid #e2e8f0;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #94a3b8;
+    border-radius: 10px;
+}
